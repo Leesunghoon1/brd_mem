@@ -1,0 +1,21 @@
+package service;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import repository.BoardDAO;
+import repository.BoardDAOImlo;
+
+public class BoardServiceImpl implements Service {
+	 
+	
+	private static final Logger log = LoggerFactory.getLogger(BoardServiceImpl.class);
+	//DAO 객체 생성
+	private BoardDAO bdao; //repository -> interface
+	
+	public BoardServiceImpl() {
+		bdao = new BoardDAOImlo(); //repository -> class
+	}
+	
+	
+}

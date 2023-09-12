@@ -1,0 +1,12 @@
+package repository;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+public class BoardDAOImlo implements BoardDAO {
+	
+	private static final Logger log = LoggerFactory.getLogger(BoardDAOImlo.class);
+	//DB와 연결
+	
+}

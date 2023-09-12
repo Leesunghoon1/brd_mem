@@ -1,0 +1,11 @@
+package repository;
+
+import domain.BoardVO;
+import service.list;
+
+public interface BoardDAO {
+
+	int insert(BoardVO bvo);
+
+
+}
